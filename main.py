@@ -1,4 +1,4 @@
-def in_autotests_we_trust(a, b):
+def in_autotests_we_trust(a: object, b: object) -> None:
     if a == b:
         print('Passou 1')
     else:
